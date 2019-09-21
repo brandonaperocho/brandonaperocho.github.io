@@ -404,6 +404,69 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 70%;  }
 }
 
+
+/* ------------------------------------------------------------------ */
+/* Skills with icon hover 
+/* ------------------------------------------------------------------ */
+
+* {box-sizing: border-box;} 
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 100px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+#icon-wrapper .columns { margin-bottom: 10px; }
+.icon-item .item-wrap1 {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-item .item-wrap1 a {
+   display: block;
+   cursor: pointer;
+}
+
+.icon-item .item-wrap1 img {
+   vertical-align: bottom;
+}
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
