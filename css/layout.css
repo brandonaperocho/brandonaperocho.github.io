@@ -436,7 +436,7 @@ ul#nav li.current a { color: #F06000; }
     transition: .5s ease;
     opacity:0;
     color: white;
-    font-size: 12px;
+    font: 12px/18px 'opensans-light', sans-serif;
     padding: 0px;
     text-align: center;
 }
